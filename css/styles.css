@@ -1,0 +1,13 @@
+.titulo {
+    background-color: aquamarine;
+    color: blue;
+}
+.titulo2 {
+    background-color: palevioletred;
+    color: blue;
+}
+body {
+    background-color: ghostwhite;
+    width: 88%;
+    margin: auto;
+}
