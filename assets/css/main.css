@@ -30,9 +30,61 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/* Botones */ 
+
+.social-buttons {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	padding: 2rem;
+}
+	
+.btn {
+	padding: 12px 24px;
+	border-radius: 25px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	transition: all 0.3s ease;
+	border: none;
+	cursor: pointer;
+}
+	
+.btn i {
+	font-size: 1.2em;
+}
+	
+/* Estilos específicos para GitHub */
+.github-btn {
+	background-color: #333;
+	color: white;
+}
+	
+.github-btn:hover {
+	background-color: #444;
+	transform: translateY(-2px);
+}
+	
+/* Estilos específicos para LinkedIn */
+.linkedin-btn {
+	background-color: #0077b5;
+	color: white;
+}
+	
+.linkedin-btn:hover {
+	background-color: #006699;
+	transform: translateY(-2px);
+}
+
+/* Main */
+
 body {
 	line-height: 1;
 }
+
 
 ol, ul {
 	list-style: none;
