@@ -35,8 +35,8 @@ footer, header, hgroup, menu, nav, section {
 .social-buttons {
 	display: flex;
 	gap: 20px;
-	justify-content: center;
-	padding: 2rem;
+	justify-content: right;
+	padding: 0.5;
 }
 	
 .btn {
@@ -64,8 +64,8 @@ footer, header, hgroup, menu, nav, section {
 }
 	
 .github-btn:hover {
-	background-color: #444;
-	transform: translateY(-2px);
+	background-color: #333;
+	transform: translateY(-2.6px);
 }
 	
 /* Estilos específicos para LinkedIn */
@@ -75,8 +75,8 @@ footer, header, hgroup, menu, nav, section {
 }
 	
 .linkedin-btn:hover {
-	background-color: #006699;
-	transform: translateY(-2px);
+	background-color: #0077b5;
+	transform: translateY(-2.6px);
 }
 
 /* Main */
@@ -170,7 +170,6 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffc881;
 			text-decoration: none;
 		}
 
