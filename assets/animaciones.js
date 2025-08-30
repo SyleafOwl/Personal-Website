@@ -5,5 +5,5 @@ window.addEventListener('scroll', function() {
     // Calcula el desplazamiento del scroll
     const scrollY = window.scrollY;
     // Solo mueve el fondo, no el avatar
-    header.style.backgroundPosition = `center ${scrollY * 0.5}px`;
+    header.style.backgroundPosition = `center ${scrollY * -0.05}px`;
 });

@@ -65,7 +65,7 @@ footer, header, hgroup, menu, nav, section {
 	
 .github-btn:hover {
 	background-color: #333;
-	transform: translateY(-2.6px);
+    outline: 2px solid #fff;         /* Grosor y color del aro */ 
 }
 	
 /* Estilos específicos para LinkedIn */
@@ -76,7 +76,8 @@ footer, header, hgroup, menu, nav, section {
 	
 .linkedin-btn:hover {
 	background-color: #0077b5;
-	transform: translateY(-2.6px);
+    outline: 2px solid #fff;         /* Grosor y color del aro */
+
 }
 
 /* Main */
@@ -2650,7 +2651,7 @@ input, select, textarea {
 		background-image: url("../../images/fondo.jpg");
 		background-position: center top;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: auto;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2695,6 +2696,11 @@ input, select, textarea {
 		#header .image.avatar {
 			margin: 200;
 			width: 40%;
+		}
+		#header .image.avatar img {
+			border-radius: 100%;
+			outline: 2px solid #fff;   /* Grosor y color del aro */
+			outline-offset: 3.5px;   /* Espacio transparente entre imagen y aro */
 		}
 
 /* Footer */
