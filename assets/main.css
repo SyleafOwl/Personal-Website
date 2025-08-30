@@ -2648,7 +2648,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll;
-		background-image: url("../../images/fondo.jpg");
+		background-image: url("/images/fondo.jpg");
 		background-position: center top;
 		background-repeat: no-repeat;
 		background-size: auto;
